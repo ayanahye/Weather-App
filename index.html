@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="styles.css" />
+    <title>Weather Forecast</title>
+  </head>
+  <body>
+    <div class="container">
+      <span><img src="" class="icon"></span>
+      <p id="weather">
+          <ul style="list-style-type: none" class ="list">
+              <li class="city">Location</li>
+              <li class="description">Weather</li>
+              <li class="temp">Temperature</li>
+              <li class="humidity">Humidity</li>
+          </ul>
+      </p>
+      <section class="submit">
+        <button class="button">Search</button>
+        <input type="input" id ="input" class="input" placeholder ="City, Country" autocomplete="off">
+      </section>
+    </div>
+    <script src="app.js"></script>
+  </body>
+</html>
